@@ -1,6 +1,11 @@
 <Namespace Name="System.Drawing">
   <Docs>
-    <summary>The <see cref="N:System.Drawing" /> namespace provides access to GDI+ basic graphics functionality. More advanced functionality is provided in the <see cref="N:System.Drawing.Drawing2D" />, <see cref="N:System.Drawing.Imaging" />, and <see cref="N:System.Drawing.Text" /> namespaces.</summary>
+    <summary>
+      <format type="text/markdown"><![CDATA[  
+> [!WARNING]
+> Classes within the <xref:System.Drawing> namespace are not supported for use within a Windows or ASP.NET service or cross-platform. For a managed cross-platform alternative, see the .NET Foundation [SixLabors.ImageSharp](https://github.com/SixLabors/ImageSharp) library.
+ ]]></format>
+      The <see cref="N:System.Drawing" /> namespace provides access to GDI+ basic graphics functionality. More advanced functionality is provided in the <see cref="N:System.Drawing.Drawing2D" />, <see cref="N:System.Drawing.Imaging" />, and <see cref="N:System.Drawing.Text" /> namespaces.</summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
   
